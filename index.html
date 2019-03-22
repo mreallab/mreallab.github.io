@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div class="header">
+            <div class="container">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" class="logo"><img src="images/logo.png" height="30px" alt="" /></a></li>
+                    <li><a onclick="window.location='./index.html#experience'"> News </a></li>
+                    <li><a onclick="window.location='./publications.html'"> Publications </a></li>
+                    <li><a onclick="window.location='./people.html'"> People </a></li>
+                    <li><a onclick="window.location='./resources.html'"> Resources </a></li>
+                    <li><a onclick="window.location='./index.html#contact'"> Contact </a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading"><img src="images/logo.png" height="100px" alt="" /></h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <br>
+                        Machine Reasoning and Learning (MReaL) Lab focuses on computer vision, visual reasoning, machine
+                        learning and artificial intelligence. The main supervior of our lab is Asst Prof.Hanwang Zhang
+                        at Nanyang Technological University (NTU), SCSE. Currently, we have one Post-doc, four full-time
+                        Ph.D. students, and over five visiting students. Our research topic covers but not limited to image
+                        captioning, visual question answering, scene graph generation, visual dialog, meta-learning and so on.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading"><b>News</b></h2>
+        <div id="experience-timeline">
+            <div data-date="March 2019">
+                <p><b>Paper Accepted: Recursive Visual Attention in Visual Dialog, CVPR(oral)</b></p>
+                <p>Yulei Niu, Hanwang Zhang, Manli Zhang, Jianhong Zhang, Zhiwu Lu, Ji-Rong Wen</p>
+                <p>
+                    <a href="https://arxiv.org/abs/1812.02664">[arxiv]</a>
+                </p>
+            </div>
+
+            <div data-date="March 2019">
+                <p><b>Paper Accepted: Auto-Encoding Scene Graphs for Image Captioning, CVPR(oral)</b></p>
+                <p>Xu Yang, Kaihua Tang, Hanwang Zhang, Jianfei Cai</p>
+                <p>
+                    <a href="https://arxiv.org/abs/1812.02378">[arxiv]</a>
+                </p>
+            </div>
+
+            <div data-date="March 2019">
+                <p><b>Paper Accepted: Learning to Compose Dynamic Tree Structures for Visual Contexts, CVPR(oral)</b>
+                </p>
+                <p>Kaihua Tang, Hanwang Zhang, Baoyuan Wu, Wenhan Luo, Wei Liu</p>
+                <p>
+                    <a href="https://arxiv.org/abs/1812.01880">[arxiv]</a>
+                    <a href="https://github.com/KaihuaTang/VCTree-Scene-Graph-Generation">[github]</a>
+                </p>
+            </div>
+
+            <div data-date="March 2019">
+                <p><b>Paper Accepted: Explainable and Explicit Visual Reasoning over Scene Graphs, CVPR</b></p>
+                <p>Jiaxin Shi, Hanwang Zhang, Juanzi Li</p>
+                <p>
+                    <a href="https://arxiv.org/abs/1812.01855">[arxiv]</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="contact">
+        <h2>Contack Us</h2>
+        <div id="contact-form">
+            <form method="POST" action="mailto:hanwangzhang@ntu.edu.sg">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Machine Reasoning and Learning Lab
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
